@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bot-sensei"
+version = "0.1.0"
+description = "Bot Discord à destination de l'IUT de Montreuil (initialement)"
+authors = ["Geoffrey Groff, <groff.Geoffrey@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+"discord.py" = "^1.4.1"
+requests = "^2.23.0"
+
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+ipython = "^7.14.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
